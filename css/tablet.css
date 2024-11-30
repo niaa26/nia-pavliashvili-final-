@@ -1,0 +1,74 @@
+
+@media screen and (max-width: 745px) {
+    /* Header */
+    header {
+        padding-inline: 24px;
+    }
+
+    .main_section {
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .mid_sec-slider {
+        display: flex;
+        overflow-x: auto;
+        gap: 12px;
+        padding: 12px;
+    }
+
+    .mid_sec-card {
+        min-width: 280px;
+        height: 380px;
+    }
+
+    /* Footer */
+    footer {
+        column-gap: 40px;
+    }
+
+    /* Catalog */
+    .catalog-section {
+        padding: 48px 24px;
+    }
+
+    .catalogCard {
+        width: 100%;
+    }
+
+    .catalogCard:nth-last-child(-n+5) {
+        display: none;
+    }
+
+    /* Contact Us */
+    .contact-section {
+        padding: 64px 24px;
+    }
+
+    .contact-section-box {
+        padding: 16px;
+        flex-direction: column;
+        row-gap: 48px;
+    }
+
+    .contact-sous-section {
+        width: 100%;
+        row-gap: 24px;
+    }
+
+    iframe {
+        height: 200px;
+    }
+
+    .sous-section2-div {
+        column-gap: 42px;
+    }
+}
+
+/* For screens between 481px and 745px */
+@media screen and (max-width: 745px) and (min-width: 481px) {
+    .main_section {
+        max-width: 100%;
+    }
+}

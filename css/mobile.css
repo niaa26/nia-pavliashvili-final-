@@ -1,0 +1,123 @@
+/* For screens smaller than 481px */
+@media screen and (max-width: 481px) {
+    /* Header styles */
+    header {
+        padding: 28px 20px;
+    }
+
+    .header-logo {
+        width: 40px;
+        height: 40px;
+    }
+
+    .header-button-div {
+        column-gap: 16px;
+    }
+
+    .header-button {
+        width: 32px;
+        height: 32px;
+    }
+    
+    /* home page */ 
+
+    .main_section {
+        width: 100%;
+        background-size: cover; 
+        background-position: center;
+    }
+
+    .mid_sec-slider {
+        display: flex;
+        overflow-x: auto;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .mid_sec-card {
+        min-width: 220px;
+        height: 300px;    
+    }
+
+    .main_title {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .mid_sec {
+        padding: 32px 0 8px 20px;
+    }
+
+    .mid_sec-title {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .mid_sec-line {
+        width: 156px;
+        margin-bottom: 28px;
+    }
+
+    /* Footer */
+    footer {
+        padding: 32px 0;
+        flex-direction: column;
+        row-gap: 40px;
+        align-items: center;
+    }
+
+    .footer-section,
+    .footer-Ul {
+        align-items: center;
+    }
+
+    /* Catalog */
+    .catalog-section {
+        padding: 32px 20px;
+    }
+
+    .filter-box-span {
+        display: none;
+    }
+
+    #sort-by {
+        color: transparent;
+        width: 36px;
+        background-position: center;
+    }
+
+    .catalog-bottom {
+        column-gap: 45px;
+    }
+
+    .catalog-button-span {
+        display: none;
+    }
+
+    /* Contact us */
+    .contact-form-div {
+        flex-direction: column;
+        row-gap: 36px;
+    }
+}
+
+
+@media screen and (max-width: 321px) {
+    .main_section {
+        width: 100%;
+        background-size: cover; 
+        background-position: center;
+    }
+
+    .mid_sec-slider {
+        display: flex;
+        overflow-x: auto;
+        gap: 8px;
+        padding: 8px;
+    }
+
+    .mid_sec-card {
+        min-width: 180px; 
+        height: 250px; 
+    }
+}
